@@ -1,16 +1,9 @@
 # Configure main menu and social menu
-#[[main]]
-#identifier = "home"
-#name = "Home"
-#url = "/"
-#[main.params]
-#icon = "home"
-#newtab = true
 
 [[social]]
 identifier = "github"
 name = "GitHub"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
+url = "https://github.com/xiongxianfei"
 
 [social.params]
 icon = "brand-github"
@@ -18,7 +11,23 @@ icon = "brand-github"
 [[social]]
 identifier = "twitter"
 name = "Twitter"
-url = "https://twitter.com"
+url = "https://twitter.com/xiongxianfei"
 
 [social.params]
 icon = "brand-twitter"
+
+[[social]]
+identifier = "linkedin"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/xiongxianfei"
+
+[social.params]
+icon = "brand-linkedin"
+
+[[social]]
+identifier = "email"
+name = "Email"
+url = "mailto:xiongxianfei@example.com"
+
+[social.params]
+icon = "mail"
