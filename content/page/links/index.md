@@ -1,12 +1,12 @@
 ---
-title: Links
+title: 友链 / Links
 links:
   - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
+    description: My GitHub profile — code, projects, and contributions.
+    website: https://github.com/xiongxianfei
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 menu:
-    main: 
+    main:
         weight: 4
         params:
             icon: link
@@ -14,20 +14,6 @@ menu:
 comments: false
 ---
 
-To use this feature, add `links` section to frontmatter.
+欢迎交换友链。如有意向，请通过 GitHub 联系我。
 
-This page's frontmatter:
-
-```yaml
-links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
-```
-
-`image` field accepts both local and external images.
+Feel free to exchange links. Contact me via GitHub if you're interested.

@@ -1,0 +1,12 @@
+[zh-cn]
+languageName = "中文"
+languagedirection = "ltr"
+title = "熊显飞的博客"
+hasCJKLanguage = true
+weight = 1
+
+[en]
+languageName = "English"
+languagedirection = "ltr"
+title = "Xianfei's Blog"
+weight = 2
