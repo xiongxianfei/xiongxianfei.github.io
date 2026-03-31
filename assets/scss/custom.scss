@@ -1,3 +1,73 @@
 /*
-    You can add your own custom styles here.
-*/
+ * Custom appearance overrides
+ * Indigo accent color + Noto Serif SC for Chinese readability
+ */
+
+/* ── Accent color: Indigo ── */
+:root {
+    --accent-color: #4f46e5;
+    --accent-color-darker: #4338ca;
+    --accent-color-text: #fff;
+
+    /* Link highlight */
+    --link-background-color: 99, 102, 241;  /* #6366f1 */
+    --link-background-opacity: 0.25;
+    --link-background-opacity-hover: 0.4;
+}
+
+:root[data-scheme="dark"] {
+    --accent-color: #818cf8;
+    --accent-color-darker: #6366f1;
+    --accent-color-text: #fff;
+
+    --link-background-color: 129, 140, 248;  /* #818cf8 */
+    --link-background-opacity: 0.2;
+    --link-background-opacity-hover: 0.35;
+}
+
+/* ── Typography: Noto Serif SC for Chinese, Lato for Latin ── */
+:root {
+    --article-font-family: "Noto Serif SC", "Lato", var(--sys-font-family), serif;
+}
+
+/* Sidebar and UI keep the sans-serif base font */
+.sidebar,
+.widget,
+.menu {
+    font-family: "Lato", var(--sys-font-family), sans-serif;
+}
+
+/* Slightly increased line-height for Chinese serif readability */
+.article-content {
+    line-height: 1.95;
+}
+
+/* ── Sidebar: subtle indigo tint on active menu item ── */
+.left-sidebar .menu li.current a,
+.left-sidebar .menu li a:hover {
+    color: var(--accent-color);
+}
+
+/* ── Article card: accent-colored category tag ── */
+.article-category a {
+    color: var(--accent-color);
+
+    &:hover {
+        color: var(--accent-color-darker);
+    }
+}
+
+/* ── Code blocks: slightly warmer background in light mode ── */
+:root[data-scheme="light"] {
+    --code-background-color: rgba(79, 70, 229, 0.06);
+}
+
+/* ── Heading anchor color ── */
+.heading-anchor {
+    color: var(--accent-color);
+    opacity: 0.5;
+
+    &:hover {
+        opacity: 1;
+    }
+}
